@@ -135,6 +135,7 @@ cat > main.py << 'EOF'
 
 from fastapi import FastAPI
 from contextlib import asynccontextmanager
+from fastapi.middleware.cors import CORSMiddleware
 from loguru import logger
 from app.core import settings
 

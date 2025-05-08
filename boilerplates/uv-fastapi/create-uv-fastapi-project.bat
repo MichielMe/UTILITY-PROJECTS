@@ -137,6 +137,7 @@ echo Adding boilerplate code...
 (
 echo from fastapi import FastAPI
 echo from contextlib import asynccontextmanager
+echo from fastapi.middleware.cors import CORSMiddleware
 echo from loguru import logger
 echo from app.core import settings
 echo.
